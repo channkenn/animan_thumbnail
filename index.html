@@ -19,30 +19,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
     <link rel="icon" href="{{ url_for('static', filename='animanimg_favicon.png') }}" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>サムネイル</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1rem;
-        }
-        .content {
-            padding: 2rem;
-        }
-        img {
-            width: 200px;
-            height: auto;
-            margin-top: 1rem;
-        }
-    </style>
+    <!-- CSSファイルをリンク -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
@@ -52,5 +31,8 @@
         <p>これはサンプルのサムネイル画像です。</p>
         <img src="https://via.placeholder.com/200" alt="サムネイル画像">
     </div>
+
+    <!-- JavaScriptファイルを読み込む -->
+    <script src="js/scripts.js"></script>
 </body>
 </html>
